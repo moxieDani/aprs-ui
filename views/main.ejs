@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <% include ./common/head %>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Automatic Packaging Release System</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admin <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Database</li>
+                <li><a href="#">APRS Users</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Options</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">License</li>
+                <li><a href="#">Check License File</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Android SDK <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Base SDKs</a></li>
+                  <li><a href="#">Test SDKs</a></li>
+                  <li><a href="#">Released SDKs</a></li>
+                  <li><a href="#">Pre SDKs</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">iOS SDK <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Base SDKs</a></li>
+                  <li><a href="#">Test SDKs</a></li>
+                  <li><a href="#">Released SDKs</a></li>
+                  <li><a href="#">Pre SDKs</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tizen SDK <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Base SDKs</a></li>
+                  <li><a href="#">Test SDKs</a></li>
+                  <li><a href="#">Released SDKs</a></li>
+                  <li><a href="#">Pre SDKs</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Mail</li>
+                <li><a href="#">Send e-mail</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Statistics</li>
+                <li><a href="#">Customer</a></li>
+                <li><a href="#">SDK version</a></li>
+                <li><a href="#">Release</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Base SDKs</h1>
+      </div>
+      <p class="lead">Contents</p>
+    </div>
+
+    <footer class="footer">
+        <% include ./common/footer %>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
